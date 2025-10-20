@@ -11,3 +11,15 @@
 —>开发python web c/c++ java 
 #**使用方法**
 无顺序要求，三个语雀文档是并列关系。
+#第二周
+CryptoTool/
+├── crypt/
+├── include/ 
+└── build/
+#环境配置步骤
+Ctrl+`打开终端，
+cd build
+make
+./CryptoTool
+#使⽤⽅法
+CMake和Docker是学习内容，C++ ⽂本加密解密⼯具(第二周)是实践过程及错误 
