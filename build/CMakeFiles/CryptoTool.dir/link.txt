@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/CryptoTool.dir/crypt/main.cpp.o CMakeFiles/CryptoTool.dir/crypt/filehandler.cpp.o CMakeFiles/CryptoTool.dir/crypt/menu.cpp.o CMakeFiles/CryptoTool.dir/crypt/crypto.cpp.o -o CryptoTool 

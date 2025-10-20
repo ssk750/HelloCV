@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ssk/CryptoTool/build",
+  "command": "/usr/bin/g++  -I/home/ssk/CryptoTool/include -g -std=gnu++11 -o CMakeFiles/CryptoTool.dir/crypt/main.cpp.o -c /home/ssk/CryptoTool/crypt/main.cpp",
+  "file": "/home/ssk/CryptoTool/crypt/main.cpp"
+},
+{
+  "directory": "/home/ssk/CryptoTool/build",
+  "command": "/usr/bin/g++  -I/home/ssk/CryptoTool/include -g -std=gnu++11 -o CMakeFiles/CryptoTool.dir/crypt/filehandler.cpp.o -c /home/ssk/CryptoTool/crypt/filehandler.cpp",
+  "file": "/home/ssk/CryptoTool/crypt/filehandler.cpp"
+},
+{
+  "directory": "/home/ssk/CryptoTool/build",
+  "command": "/usr/bin/g++  -I/home/ssk/CryptoTool/include -g -std=gnu++11 -o CMakeFiles/CryptoTool.dir/crypt/menu.cpp.o -c /home/ssk/CryptoTool/crypt/menu.cpp",
+  "file": "/home/ssk/CryptoTool/crypt/menu.cpp"
+},
+{
+  "directory": "/home/ssk/CryptoTool/build",
+  "command": "/usr/bin/g++  -I/home/ssk/CryptoTool/include -g -std=gnu++11 -o CMakeFiles/CryptoTool.dir/crypt/crypto.cpp.o -c /home/ssk/CryptoTool/crypt/crypto.cpp",
+  "file": "/home/ssk/CryptoTool/crypt/crypto.cpp"
+}
+]
