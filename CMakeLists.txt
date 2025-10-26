@@ -1,15 +1,18 @@
 cmake_minimum_required(VERSION 3.10)
-project(CryptoTool)
+project(TrafficLight)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 包含头文件目录
-include_directories(include)
 
-# 添加可执行文件 - 使用正确的文件路径
-add_executable(CryptoTool
-    crypt/main.cpp
-    crypt/filehandler.cpp
-    crypt/menu.cpp
-    crypt/crypto.cpp
-    )
+find_package(OpenCV REQUIRED COMPONENTS core highgui imgproc)
+add_executable(${PROJECT_NAME} traffic/test.cpp)
+target_compile_definitions(${PROJECT_NAME} PRIVATE OPENCV_VERSION=${OpenCV_VERSION_MAJOR})
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${OpenCV_INCLUDE_DIRS})
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    target_compile_options(${PROJECT_NAME} PRIVATE -g -O0)
+else()
+    target_compile_options(${PROJECT_NAME} PRIVATE -O2)
+endif()
