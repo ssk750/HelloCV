@@ -1,3 +1,0 @@
-/home/ssk/TrafficLight/build/CMakeFiles/TrafficLight.dir
-/home/ssk/TrafficLight/build/CMakeFiles/edit_cache.dir
-/home/ssk/TrafficLight/build/CMakeFiles/rebuild_cache.dir
