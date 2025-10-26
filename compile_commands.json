@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ssk/TrafficLight/build",
+  "command": "/usr/bin/c++ -DOPENCV_VERSION=4 -isystem /usr/include/opencv4 -g -g -O0 -std=gnu++11 -o CMakeFiles/TrafficLight.dir/traffic/test.cpp.o -c /home/ssk/TrafficLight/traffic/test.cpp",
+  "file": "/home/ssk/TrafficLight/traffic/test.cpp"
+}
+]
